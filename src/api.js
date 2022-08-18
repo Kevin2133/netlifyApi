@@ -23,7 +23,9 @@ router.get("/manuel", (req, res) => {
     res.end();
 });
 
-server.use("/.netlify/functions/api", router)
+//server.use("/.netlify/functions/api", router);
+server.use("/", router);
+
 
 module.exports.handler = serverless(server);
 
