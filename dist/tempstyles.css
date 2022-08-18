@@ -1,0 +1,77 @@
+.introduzione{
+    min-height: fit-content;
+    background-position: top;
+    padding-bottom: 3vh;
+}
+
+body{
+    background-color: rgba(0, 162, 162, 0.515);
+}
+
+.post-wrapper{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.post{
+    align-self: center;
+    min-width: 100%;
+    width: fit-content;
+    min-height: 30vh;
+    display: flex;    
+    flex-direction: row;  
+    margin-bottom: 5vh;  
+}
+
+.post-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;   
+    align-self: flex-start;
+    padding-right: 3vw;
+}
+
+.post-image img{
+    width: 100%;
+    padding-bottom: 2vh;
+    border-radius: 5px
+    ;
+}
+
+.description-wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.post-title{
+    min-height: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;  
+    margin-bottom: 2vh;  
+}
+
+
+/*ricordarsi di mettere dentro tutte le sezioni del sito*/
+@media screen and (max-width: 745px) {
+    .post-wrapper{
+        width: 260vw;   
+    }
+
+    .introduzione{
+        width:260vw;
+    }
+
+    .footer{
+        width: 260vw;
+    }
+}
