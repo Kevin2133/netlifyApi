@@ -1,2 +1,4 @@
-console.log("Scrivendo da javascript");
+const os = require("os");
+
+console.log(os.freemem());
 
