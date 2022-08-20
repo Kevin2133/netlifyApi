@@ -23,7 +23,7 @@ router.get("/manuel", (req, res) => {
     res.end();
 });
 
-router.get("https://kevinbellocchio.netlify.app/homepage", (req, res){
+router.get("https://kevinbellocchio.netlify.app/homepage", (req, res) => {
     res.send("Content-Type", "application/json");
     res.send("writing from api");
     res.end();
