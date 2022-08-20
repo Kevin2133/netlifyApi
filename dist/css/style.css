@@ -47,7 +47,7 @@ stili prima pagina
 .introduzione{
     min-height: 100vh;
     min-width: 100%; 
-    background-image: url("./src/fotoSfondo.jpeg");
+    background-image: url("../img/fotoSfondo.jpeg");
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0,0,0.6);
